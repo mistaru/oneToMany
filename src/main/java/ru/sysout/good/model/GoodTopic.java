@@ -1,5 +1,6 @@
 package ru.sysout.good.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -16,6 +17,7 @@ public class GoodTopic {
     private long id;
     private String title;
 
+    @JsonManagedReference
     @OneToMany(fetch = FetchType.EAGER,
             mappedBy = "topic",
             cascade = CascadeType.ALL,
