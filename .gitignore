@@ -1,0 +1,14 @@
+### IntelliJ IDEA ###
+
+**/target
+**/HELP.md
+**/node_modules
+
+**/*.iml
+**/*.iws
+**/*.ipr
+**/.idea
+**/.settings
+**/*.classpath
+**/*.project
+**/*.md
